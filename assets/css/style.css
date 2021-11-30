@@ -40,7 +40,8 @@
   }
   
   p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
     color: black;
     
   }
@@ -103,7 +104,7 @@
   }
   
   .hero p {
-    max-width: 75%;
+    max-width: 100%;
   }
   
   .app-title {
