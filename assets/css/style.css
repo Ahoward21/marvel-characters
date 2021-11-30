@@ -1,8 +1,8 @@
 :root {
-    --primary: #ccdad1;
+    --primary: darkgray;
     --secondary: #9caea9;
     --tertiary: #788585;
-    --light-dark: #6f6866;
+    --light-dark: red;
     --dark: blue;
     --border-radius: .3rem;
   }
@@ -41,6 +41,8 @@
   
   p {
     font-size: 1.2rem;
+    color: black;
+    
   }
   
    .btn {
