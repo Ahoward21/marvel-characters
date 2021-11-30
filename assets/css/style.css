@@ -20,8 +20,7 @@
     line-height: 1.5;
     font-size: 16px;
   }
-
-
+  
   
   h1,
   h2,
@@ -98,7 +97,7 @@
     padding: 3% 4%;
     background-image: url(https://i.annihil.us/u/prod/misc/marvel.svg);
     background-color: var(--dark);
-    color: blue;
+    color: var(--primary);
   }
   
   .hero p {
@@ -108,7 +107,7 @@
   .app-title {
     font-size: 3rem;
     background-color: var(--primary);
-    color: blue;
+    color: var(--dark);
     padding: 0 10px;
     display: inline-block;
     border-radius: var(--border-radius);
