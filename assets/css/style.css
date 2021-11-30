@@ -94,6 +94,7 @@
   
   .hero {
     padding: 3% 4%;
+    background-image: url(https://i.annihil.us/u/prod/misc/marvel.svg);
     background-color: var(--dark);
     color: var(--primary);
   }
