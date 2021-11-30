@@ -21,9 +21,7 @@
     font-size: 16px;
   }
 
-  main {
-      background-image: url(./assets/images/background.jpg);
-  }
+
   
   h1,
   h2,
@@ -100,7 +98,7 @@
     padding: 3% 4%;
     background-image: url(https://i.annihil.us/u/prod/misc/marvel.svg);
     background-color: var(--dark);
-    color: var(--primary);
+    color: blue;
   }
   
   .hero p {
@@ -110,7 +108,7 @@
   .app-title {
     font-size: 3rem;
     background-color: var(--primary);
-    color: var(--dark);
+    color: blue;
     padding: 0 10px;
     display: inline-block;
     border-radius: var(--border-radius);
