@@ -8,7 +8,7 @@ fetch('https://gateway.marvel.com:443/v1/public/characters?apikey=f5e0d5c0b51df5
     var character = data.data.results[i];
     console.log('character is', character);
     var newListItem = document.createElement('li');
-    newListItem.innerText = character.name;
+    newListItem.innerText = character.id;
     charactersEl.appendChild(newListItem);
   }
 });
