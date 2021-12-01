@@ -15,12 +15,3 @@ fetch('https://gateway.marvel.com:443/v1/public/characters?apikey=f5e0d5c0b51df5
   }
 });
 
-// var wikiApiUrl = ""
-fetch('https://meta.wikimedia.org/w/api.php?action=query&list=search&srsearch=""&format=json')
-.then(function(response){
-    console.log("this is here")
-    return response.json();
-}).then(function(data) {
-    
-    console.log(data);
-})
