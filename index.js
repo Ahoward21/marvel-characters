@@ -13,15 +13,13 @@ fetch('https://gateway.marvel.com:443/v1/public/characters?apikey=f5e0d5c0b51df5
     newListItem.innerText = character.name
     ;
     charactersEl.appendChild(newListItem);
-    console.log('id')
+    console.log(character.name)
   }
 });
 
-fetch('https://comicvine.gamespot.com/api/characters/?api_key=7a85ae236d0baed1243a70bd84fdd22db445b36e&format=json', {
-    mode: "no-cors",
-})
+fetch('https://comicvine.gamespot.com/api/characters/?api_key=7a85ae236d0baed1243a70bd84fdd22db445b36e&format=json')
 .then(function(response) {
-    console.log("im here")
+    console.log(response)
     return response.json();
 }).then(function (data) {
     console.log(data)
