@@ -1,7 +1,8 @@
 var charactersEl = document.getElementById('characters');
-var publicKey = "f5e0d5c0b51df5fdcd857f97593050b6";
+var marvelKey = "f5e0d5c0b51df5fdcd857f97593050b6";
 
-fetch('https://gateway.marvel.com:443/v1/public/characters?apikey=f5e0d5c0b51df5fdcd857f97593050b6').then(function(response) {
+fetch('https://gateway.marvel.com:443/v1/public/characters?apikey=f5e0d5c0b51df5fdcd857f97593050b6')
+.then(function(response) {
   return response.json();
 }).then(function (data) {
   console.log('data', data);
@@ -12,6 +13,15 @@ fetch('https://gateway.marvel.com:443/v1/public/characters?apikey=f5e0d5c0b51df5
     newListItem.innerText = character.name
     ;
     charactersEl.appendChild(newListItem);
+    console.log('id')
   }
 });
-
+console.log("is this working")
+fetch('http://comicvine.gamespot.com/api?apikey=7a85ae236d0baed1243a70bd84fdd22db445b36e')
+.then(function(response) {
+    
+    return response.json();
+}).then(function (data) {
+    
+    console.log(data)
+})
